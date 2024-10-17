@@ -25,7 +25,7 @@ const App = () => {
         <List people={people} />
 
         <button
-          className="btn"
+          className="btn btn-block"
           onClick={people.length ? clearAll : reset}
         >
           {people.length ? 'Clear All' : 'Reset'}
